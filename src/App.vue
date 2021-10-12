@@ -1,16 +1,21 @@
 <template>
-    <div>
-      项目建好了
+    <div>      
+      <Header/>
+      <router-view></router-view>
+      <Footer/>
     </div>
 </template>
 
 <script>
+import Header from './components/Header'
+import Footer from './components/Footer'
 export default {
     data() {
         return {
 
         };
     },
+    components:{Header,Footer},
     methods: {
 
     },
