@@ -1,6 +1,11 @@
 <template>
     <div>
-        Search
+        <!-- Search
+        <br>
+        keyword:{{$route.params.keyword}}------{{keyword}}
+        <br>
+        keyword1:{{$route.query.keyword1}}------{{keyword1}} -->
+        <TypeNav/>
     </div>
 </template>
 
@@ -11,6 +16,7 @@ export default {
 
         };
     },
+    props:['keyword','keyword1'],
     methods: {
 
     },
